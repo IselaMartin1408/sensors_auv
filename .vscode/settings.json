@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "spi_master.h": "c",
+        "task.h": "c",
+        "stdint.h": "c",
+        "ets_sys.h": "c",
+        "bmp280.h": "c",
+        "esp_log.h": "c",
+        "flow.h": "c",
+        "nmea_parser.h": "c",
+        "esp_event.h": "c",
+        "uart.h": "c",
+        "idf_additions.h": "c"
+    },
+
+    "idf.flashType": "UART",
+    "idf.portWin": "COM6",
+
+    // ***ESTA LÍNEA ES LA QUE ARREGLA EL ERROR***
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+}
