@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "SENSORS",
-    "project_version":    "1",
+    "project_version":    "c19d1ea-dirty",
     "project_path":       "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors",
     "idf_path":           "C:/Users/isela/esp/v5.4.1/esp-idf",
     "build_dir":          "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/build",
@@ -1240,7 +1240,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [ "esp-idf-lib__bmp280" ],
             "file": "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/main/main_sensors.c", "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/main/flow.c", "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/main/BNO055.c", "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/main/GPS_EVK.c" ],
+            "sources": [ "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/main/main_gps.c", "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/main/GPS_EVK.c", "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/main/mainflow.c", "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/main/flow.c", "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/main/BNO055.c", "C:/Users/isela/Documents/Maestria/Tesis Maestria/Tesis 3 cuatrimestre/Tesis_v1.0/Sensors/main/main_sensors.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

@@ -1,5 +1,4 @@
-idf_component_register(
-    SRCS  "main_sensors.c" "flow.c" "BNO055.c" "GPS_EVK.c"
+idf_component_register(SRCS "main_gps.c" "GPS_EVK.c"  "mainflow.c" "flow.c" "BNO055.c" "main_sensors.c"
     INCLUDE_DIRS "."
     REQUIRES
         driver           # Controladores (I2C, UART, GPIO, PWM, etc.)

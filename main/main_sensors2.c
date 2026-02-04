@@ -229,7 +229,7 @@ static void sensors_task(void *arg)
 
 void app_main(void)
 {
-    // Inicialización del driver I2C (usado por BNO055 y BMP280)
+        // Inicialización del driver I2C (usado por BNO055 y BMP280)
     ESP_ERROR_CHECK(i2c_master_init_bno());
     
     // Creamos la tarea unificada de sensores

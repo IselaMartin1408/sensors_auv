@@ -161,7 +161,7 @@ static void sensors_task(void *arg)
             gps.day, gps.month, gps.year, gps.hour, gps.minute, gps.second
         );
 
-        vTaskDelay(pdMS_TO_TICKS(200));
+        vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
 
